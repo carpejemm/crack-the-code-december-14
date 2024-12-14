@@ -36,32 +36,40 @@ Follow these steps to get the application running on your local machine.
    git clone https://github.com/carpejemm/crack-the-code-december-14.git
    cd crack-the-code-december-14
 
+## API Configuration
+The application uses the Gemini Pro generative language model API for generating responses. Ensure you have an API key and update the API_KEY variable in script.js.
+
+API URL:
+https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=YOUR_API_KEY
 
 # Setting Up Your API Key
 
 To enable Chatbox AI to generate intelligent responses, you need to set up your API key in the `script.js` file. Follow these steps:
 
-## Step 1: Open the `script.js` File
+### Step 1: Open the `script.js` File
 Open the `script.js` file using a text editor of your choice.
 
-## Step 2: Locate the API Key Placeholder
+### Step 2: Locate the API Key Placeholder
 Find the following line of code in the file:
 
-```javascript
-const API_KEY = "your-api-key-here";
+`const API_KEY = "your-api-key-here";`
 
-Step 3: Replace the Placeholder
-Replace "your-api-key-here" with your actual API key. After updating, the code should look like this:
+### Step 3: Replace the Placeholder
+Replace `"your-api-key-here"` with your actual API key. After updating, the code should look like this:
 
-javascript
-Copy code
-const API_KEY = "your-actual-api-key";
-Step 4: Save the File
-Save the changes to the script.js file.
+`const API_KEY = "your-actual-api-key";`
 
-Step 5: Refresh Your Browser
+### Step 4: Save the File
+Save the changes to the `script.js` file.
+
+### Step 5: Refresh Your Browser
 Reload your browser to apply the changes and activate the API key.
 
-Important Notes
+## Important Notes
+
 Keep your API key private: Do not share your API key in public repositories or with unauthorized individuals.
+
 Secure your API key: Consider using environment variables or other secure methods to store sensitive information in production environments.
+
+## Contact
+For issues or suggestions, please create an issue in the GitHub repository or contact the developer at jerelydclaguda@gmail.com.
