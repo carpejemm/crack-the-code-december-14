@@ -1,4 +1,4 @@
-# Chatbox AI
+# Chatbot AI
 
 Chatbox AI is an interactive chatbot application designed to engage users in meaningful conversations. It features a sleek and responsive interface, utilizes a generative language API to create intelligent responses, and enhances user experience with modern design practices.
 
@@ -35,6 +35,10 @@ Follow these steps to get the application running on your local machine.
    ```bash
    git clone https://github.com/carpejemm/crack-the-code-december-14.git
    cd crack-the-code-december-14
+
+2. Open the `index.html` file in your preferred browser:
+3. Ensure you have a valid API key for the generative AI. Replace the placeholder in `script.js`.
+4. Save your changes and refresh the browser.
 
 ## API Configuration
 The application uses the Gemini Pro generative language model API for generating responses. Ensure you have an API key and update the API_KEY variable in script.js.
